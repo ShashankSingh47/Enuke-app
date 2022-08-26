@@ -1,0 +1,25 @@
+1. First you have to rum: npm init
+2. Import the enuke collection to the postman/thunderclient 
+3. Then run index.js from the src directory
+
+
+4. After this, hit the first api: 
+
+localhost:3000/users
+This will create a user in the database.
+
+
+5. Then hit the next Api:
+
+localhost:3000/users/me/avatar
+
+Select the image you want to upload in the value field
+This will upload the image for the authenticated user
+
+6. API for logging the user in
+localhost:3000/users/login
+
+This will authenticate the user if the user gets logged out.
+
+7. API for logging the user out
+localhost:3000/users/logout
