@@ -1,4 +1,4 @@
-1. First you have to rum: npm init
+1. First you have to rum: npm install
 2. Import the enuke collection to the postman/thunderclient 
 3. Then run index.js from the src directory
 
